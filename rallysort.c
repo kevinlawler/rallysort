@@ -72,12 +72,13 @@ int main(int argc, char *argv[])
       cars[i] = car;
     }
 
+    time += time_delta;
+
     if (!cars_racing_still)
     {
       break;
     }
 
-    time += time_delta;
   }
 
   printf("Done\n");
