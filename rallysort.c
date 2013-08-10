@@ -57,7 +57,7 @@ int main(int argc, char *argv[])
         continue;
       }
 
-      car.position = time * car.speed; 
+      car.position += time_delta * car.speed; 
 
       if (car.position >= finish_line)
       {
